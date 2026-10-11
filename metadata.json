@@ -1,0 +1,6 @@
+{
+  "name": "Apathy Corporation | Portal & Applications",
+  "description": "Официальный портал корпорации APATHY на Radmir GTA 5 RP. Система подачи и синхронизации заявок кандидатов с базой данных и порталом персонала.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

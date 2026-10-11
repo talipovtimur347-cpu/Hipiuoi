@@ -1,0 +1,24 @@
+[
+  {
+    "id": "APP-6607",
+    "nick": "Test_Candidate",
+    "cid": "888A",
+    "phone": "555-123",
+    "discord": "test_user#9999",
+    "docs": "https://imgur.com/testdocs",
+    "status": "pending",
+    "submittedAt": "2026-10-11T09:56:07.164Z",
+    "source": "ac2_portal"
+  },
+  {
+    "id": "APP-1001",
+    "nick": "Denis_Radmir",
+    "cid": "312",
+    "phone": "321",
+    "discord": "denis_apathy#4412",
+    "docs": "https://imgur.com/gallery/radmir-pass-312",
+    "status": "pending",
+    "submittedAt": "2026-10-11T07:56:07.163Z",
+    "source": "public_portal"
+  }
+]

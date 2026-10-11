@@ -1,0 +1,39 @@
+@import "tailwindcss";
+@import "./ac-legacy.css";
+
+@font-face {
+  font-family: 'Space Age';
+  src: url('/fonts/space-age.woff') format('woff');
+  font-display: swap;
+}
+
+:root {
+  --bg-dark: #030407;
+  --text-steel: #89949F;
+  --text-light: #D1D5DB;
+  --accent-cyan: #22d3ee;
+  --font-display: 'Bruno Ace SC', 'Unbounded', 'Jura', 'Audiowide', 'Syncopate', sans-serif;
+  --font-mono: 'Montserrat', sans-serif;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #030407;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(115, 130, 153, 0.3);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(115, 130, 153, 0.6);
+}
+
+/* Form input custom highlights */
+.field-glow:focus-within {
+  border-color: rgba(34, 211, 238, 0.6) !important;
+  box-shadow: 0 0 20px rgba(34, 211, 238, 0.25) !important;
+}
